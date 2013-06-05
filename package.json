@@ -1,0 +1,24 @@
+{
+  "name"          : "backbone.model.toggle",
+  "description"   : "Adds a simple toggle method to Backbone.Model.",
+  "url"           : "https://github.com/todd/backbone.model.toggle",
+  "keywords"      : ["backbone", "model", "toggle"],
+  "author"        : "Todd Bealmear",
+  "dependencies"  : {
+    "underscore"  : ">=1.4.3",
+    "backbone"    : ">=1.0.0"
+  },
+  "devDependencies": {
+    "phantomjs": "1.9.0-1"
+  },
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html"
+  },
+  "main"          : "backbone.model.toggle.js",
+  "version"       : "0.1.0",
+  "license"       : "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/todd/backbone.model.toggle.git"
+  }
+}
